@@ -562,9 +562,6 @@ service webmin restart
 service pptpd restart
 sysv-rc-conf rc.local on
 
-#clearing history
-history -c
-
 # info
 clear
 echo " "
